@@ -34,6 +34,6 @@ public class ObstacleMovement : MonoBehaviour
             }
         }
 
-        transform.position += dir.normalized * 0.01f;
+        transform.position += dir.normalized * 0.01f * Time.deltaTime;
     }
 }
