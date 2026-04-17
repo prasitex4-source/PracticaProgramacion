@@ -5,7 +5,6 @@ using UnityEngine.AI;
 public class NpcMov : MonoBehaviour
 {
     NavMeshAgent Agent;
-    [SerializeField] Transform Pos;
     Vector3 GoingPos;
     int Next = 0;
 
@@ -33,8 +32,7 @@ public class NpcMov : MonoBehaviour
 
                 if (Next == Destinations.Count)
                 { 
-                Next = 0;
-                Debug.Log("Yija");
+                    Next = 0;
                 }
 
         }
