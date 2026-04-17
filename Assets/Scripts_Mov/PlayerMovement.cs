@@ -6,7 +6,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 2f;
     private InputManager inputManager;
     private Rigidbody rb;
-    private bool isGrounded = true;
+    public bool isGrounded = true;
+
 
     void Awake()
     {
