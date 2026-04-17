@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 5
+  jumpForce: 500
 --- !u!54 &333163525
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -319,6 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputManager
   movementInput: {x: 0, y: 0}
+  jumpPressed: 0
 --- !u!1 &1110636802
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,7 +462,7 @@ GameObject:
   - component: {fileID: 1344362609}
   m_Layer: 0
   m_Name: Suelo
-  m_TagString: Untagged
+  m_TagString: Suelo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
